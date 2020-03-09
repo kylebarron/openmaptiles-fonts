@@ -10,7 +10,7 @@ that repository.
 
 This repository hosts the individual fontstack files, so you can just add
 ```
-"glyphs": "https://raw.githubusercontent.com/kylebarron/openmaptiles-fonts/master/fonts/{fontstack}/{range}.pbf"
+"glyphs": "https://cdn.jsdelivr.net/gh/kylebarron/openmaptiles-fonts/fonts/{fontstack}/{range}.pbf"
 ```
 to your style.
 
@@ -25,7 +25,7 @@ In order to load fonts in a Mapbox GL style, you need to have a key in your Styl
 In order to serve these fontstacks from this repository, just change that to:
 
 ```
-"glyphs": "https://raw.githubusercontent.com/kylebarron/openmaptiles-fonts/master/fonts/{fontstack}/{range}.pbf"
+"glyphs": "https://cdn.jsdelivr.net/gh/kylebarron/openmaptiles-fonts/fonts/{fontstack}/{range}.pbf"
 ```
 
 You can also fork this repository, to make sure that you can easily host the
